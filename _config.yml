@@ -1,7 +1,7 @@
 # Site
 title:              SOM NA RURAL
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                'Grupo responsável pelo projeto: SOM NA RURAL'
+description:        "Grupo responsável pelo projeto: SOM NA RURAL"
 locale:             en_US
 baseurl: "/somnarural" # the subpath of your site, e.g. /blog
 url: "https://abduzidos.github.io" # the base hostname & protocol for your site
@@ -41,7 +41,7 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
+location:           Recife, PE
 phone:              310-318-5555
 email:              info@default.com
 
