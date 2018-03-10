@@ -43,10 +43,10 @@ sitemap:
     
 ### Content is Imortant
 <div class="box">
-	<span class="image left"><img src="{{ "/images/git.png" | absolute_url }}" alt="" /></span>
-	<span class="image left"><img src="{{ "/images/googledrive.png" | absolute_url }}" alt="" /></span>
-  	<span class="image left"><img src="{{ "/images/slack.png" | absolute_url }}" alt="" /></span>
-  	<span class="image left"><img src="{{ "/images/trello.png" | absolute_url }}" alt="" /></span>
+	<img style="height:40%; width:auto;"src="{{ "/images/git.png" | absolute_url }}" alt="" />
+	<img style="height:40%; width:auto;"src="{{ "/images/googledrive.png" | absolute_url }}" alt="" />
+  	<img style="height:40%; width:auto;"src="{{ "/images/slack.png" | absolute_url }}" alt="" />
+  	<img style="height:40%; width:auto;"src="{{ "/images/trello.png" | absolute_url }}" alt="" />
 
 </div>
 
