@@ -41,7 +41,7 @@ sitemap:
 		</table>
 	</div>
     
-### Content is Imortant
+### Ferramentas Utilizadas
 <div class="box">
 	<img width="40%" height="auto" src="{{ "/images/git.png" | absolute_url }}" alt="" />
 	<img width="40%" height="auto" src="{{ "/images/googledrive.png" | absolute_url }}" alt="" />
