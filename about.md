@@ -24,7 +24,3 @@ sitemap:
 | 02/06 - 06/06 | Entrega Final                 |
 
     
-### Apresentação inicial
-<div style="position:relative;width:100%;height:0;padding-bottom:56.25%;"><iframe allowfullscreen style="position:absolute; width: 100%; height: 100%;border: solid 1px #333;" src="https://www.beautiful.ai/player/-L7Cn_JO2BoxfuTP1LVM/Untitled"/></div>
-
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
