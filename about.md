@@ -8,7 +8,7 @@ sitemap:
     changefreq: weekly
 ---
 <h2>Cronograma</h2>
-<div class="table-wrapper">
+
 | 12/03         | Kickoff e início da sprint 00 |
 |---------------|-------------------------------|
 | 26/03         | Sprint 01                     |
@@ -21,7 +21,7 @@ sitemap:
 | 04/06         | Sprint 06                     |
 | 18/06         | Sprint 07                     |
 | 02/06 - 06/06 | Entrega Final                 |
-</div>
+
     
 ### Apresentação inicial
 <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;"><iframe allowfullscreen style="position:absolute; width: 100%; height: 100%;border: solid 1px #333;" src="https://www.beautiful.ai/player/-L7Cn_JO2BoxfuTP1LVM/Untitled"/></div>
