@@ -9,8 +9,9 @@ sitemap:
 ---
 <h2>Cronograma</h2>
 
-| 12/03         | Kickoff e início da sprint 00 |
+| Datas         | Eventos                       |
 |---------------|-------------------------------|
+| 12/03         | Kickoff e início da sprint 00 |
 | 26/03         | Sprint 01                     |
 | 06/04         | Entrega do conselho 01        |
 | 09/04         | Sprint 02                     |
