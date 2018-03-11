@@ -1,12 +1,5 @@
----
-layout: null
-title: Grupo A
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
-sitemap:
-    priority: 1.0
-    lastmod: 2017-11-02
-    changefreq: weekly
----
+--- layout: null title: Grupo A description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to. sitemap: priority: 1.0 lastmod: 2017-11-02 changefreq:
+weekly ---
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -15,106 +8,105 @@ sitemap:
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-    {% include head.html %}
+
+<head>
+  {% include head.html %}
 
 
-	</head>
-	<body class="is-loading">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<body class="is-loading">
 
-				<!-- Intro -->
-					<div id="intro">
-            <h1>{{site.title}}</h1>
-	    <h2></h2>
-						<p>Grupo de Projeto Cesar School</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <!-- Wrapper -->
+  <div id="wrapper" class="fade-in">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
+    <!-- Intro -->
+    <div id="intro">
+      <h1>{{site.title}}</h1>
+      <h2></h2>
+      <p>Grupo de Projeto Cesar School</p>
+      <ul class="actions">
+        <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+      </ul>
+    </div>
 
-				<!-- Nav -->
-					<nav id="nav">
+    <!-- Header -->
+    <header id="header">
+      <a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
+    </header>
 
-            {% include nav.html %}
+    <!-- Nav -->
+    <nav id="nav">
 
-						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+      {% include nav.html %}
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Sobre nós</a></h2>
-									<p></p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                                                                <p>Somos um grupo de projeto do 1º periodo da graduação de Design e Ciência da Computação do Cesar School , 
-projeto esse que foi determinado pelos orientadores do curso e escolhido por nós. Nosso grupo é composto 
-por 4 alunos de Ciência da Computação e 3 de Design com a mentoria de H.D. Mabuse. </p>
-                                                                <p></p>
-								<p></p>
+      <ul class="icons">
+        <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+        <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
 
-							</article>
+    <!-- Main -->
+    <div id="main">
+      <!-- Featured Post -->
+      <article class="post featured">
+        <header class="major">
+          <h2><a href="#">Sobre nós</a></h2>
+          <p></p>
+        </header>
+        <a href="#" class="image main"><img src="{{ " /images/pic01.jpg " | absolute_url }}" alt="" /></a>
+        <p>Somos um grupo de projeto do 1º periodo da graduação de Design e Ciência da Computação do Cesar School , projeto esse que foi determinado pelos orientadores do curso e escolhido por nós. Nosso grupo é composto por 4 alunos de Ciência da Computação
+          e 3 de Design com a mentoria de H.D. Mabuse. </p>
+        <p></p>
+        <p></p>
 
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-									<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-										
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</h2>
-  									</header>
+      </article>
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
+      <!-- Posts -->
+      <section class="posts">
+        {% for post in site.posts %} {% assign mod3 = forloop.index | modulo: 3 %}
+        <article>
+          <header>
+            <span class="date">{{ post.date | date_to_string }}</span>
+            <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+          </header>
+          <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+          <p>{{ post.excerpt }}</p>
+          <ul class="actions">
+            <li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+          </ul>
+        </article>
 
-							</section>
+        {% if mod3 == 0 %}
+        <article>
+          <header>
+            <h2><a href="#">Sponsored</h2>
+          </header>
 
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
+        </article>
+        {% endif %} {% endfor %}
 
-					</div>
+      </section>
 
-				<!-- Footer -->
-        {% include foot.html %}
+      <!-- Footer -->
+      <footer>
+        <ul class="actions">
+          <li><a href="{{ " /blog/ " | absolute_url }}" class="button">Our Blog</a></li>
+        </ul>
+      </footer>
 
-			</div>
+    </div>
 
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
+    <!-- Footer -->
+    {% include foot.html %}
 
-	</body>
+  </div>
+
+  <!-- Scripts -->
+  {% include scripts-main.html %} {% include tracking.html %}
+
+</body>
+
 </html>
