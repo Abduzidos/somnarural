@@ -9,37 +9,19 @@ sitemap:
 ---
 <h2>Cronograma</h2>
 <div class="table-wrapper">
-		<table class="alt">
-			<thead>
-				<tr>
-					<th>Data</th>
-					<th>Sprints</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>12/03</td>
-					<td>Kickoff - Inicio da Sprint 0.0</td>
-				</tr>
-				<tr>
-					<td>06/04</td>
-					<td>Entrega do Conselho de Classe</td>
-				</tr>
-				<tr>
-					<td>18/05</td>
-					<td>Entrega do Segundo Conselho</td>
-				</tr>
-				<tr>
-					<td>02 a 06/07</td>
-					<td>Apresentação dos Projetos</td>
-				</tr>
-				<tr>
-					<td>06/07</td>
-					<td>Entrega do Terceiro Conselho </td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+| 12/03         | Kickoff e início da sprint 00 |
+|---------------|-------------------------------|
+| 26/03         | Sprint 01                     |
+| 06/04         | Entrega do conselho 01        |
+| 09/04         | Sprint 02                     |
+| 23/04         | Sprint 03                     |
+| 07/05         | Sprint 04                     |
+| 18/05         | Entrega do conselho 02        |
+| 21/05         | Sprint 05                     |
+| 04/06         | Sprint 06                     |
+| 18/06         | Sprint 07                     |
+| 02/06 - 06/06 | Entrega Final                 |
+</div>
     
 ### Apresentação inicial
 <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;"><iframe allowfullscreen style="position:absolute; width: 100%; height: 100%;border: solid 1px #333;" src="https://www.beautiful.ai/player/-L7Cn_JO2BoxfuTP1LVM/Untitled"/></div>
