@@ -21,7 +21,7 @@ sitemap:
 | 21/05         | Sprint 05                     |
 | 04/06         | Sprint 06                     |
 | 18/06         | Sprint 07                     |
-| 02/06 - 06/06 | Entrega Final                 |
+| 02/07 - 06/07 | Entrega Final                 |
 
     
 ### Apresentação do Kickoff
