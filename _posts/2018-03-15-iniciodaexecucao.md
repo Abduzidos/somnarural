@@ -9,5 +9,5 @@ image: "/images/foto002.jpg"
 
 <span class="image left"><img src="https://abduzidos.github.io/somnarural/images/foto002.jpg" alt=""></span>
 Refinamos a blueprint e demos início ao processo de criação do nosso primeiro protótipo de baixa fidelidade.
-<span class="image fit"><img src="https://abduzidos.github.io/somnarural/images/foto003.jpg" alt=""></span>
+![Protótipo](https://abduzidos.github.io/somnarural/images/foto003.jpg)
 
