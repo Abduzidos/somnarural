@@ -31,7 +31,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   ParticiPE
+disqus_shortname: ParticiPE
 
 # Social
 analytics-id:       "default"
