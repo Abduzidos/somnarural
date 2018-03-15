@@ -7,7 +7,7 @@ image: "/images/foto002.jpg"
 ---
 # 15/03
 
-![protótipo](https://abduzidos.github.io/somnarural/images/foto002.jpg)
-![protótipo](https://abduzidos.github.io/somnarural/images/foto003.jpg)
+<span class="image left"><img src="https://abduzidos.github.io/somnarural/images/foto002.jpg" alt=""></span>
+<span class="image right"><img src="https://abduzidos.github.io/somnarural/images/foto003.jpg" alt=""></span>
 
 Refinamos a blueprint e demos início ao processo de criação do nosso primeiro protótipo de baixa fidelidade.
